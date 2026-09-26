@@ -1,6 +1,5 @@
-import React from 'react';
-import { View, Text, Image, ScrollView, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+import { Image, ScrollView, StyleSheet, Text, View } from 'react-native';
 
 const skills = [
   { id: '1', name: 'JavaScript / TypeScript', icon: 'code-slash-outline' },
@@ -14,18 +13,18 @@ export default function AboutScreen() {
     <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
       <View style={styles.profileCard}>
         <Image
-          source={{ uri: 'https://via.placeholder.com/120/1E293B/38BDF8?text=KD' }}
+          source={{ uri: 'https://via.placeholder.com/120/1E293B/38BDF8?text=VS' }}
           style={styles.avatar}
         />
-        <Text style={styles.name}>Кобилінський Денис</Text>
+        <Text style={styles.name}>Солов'ян Вікторія</Text>
         <Text style={styles.role}>React Native Mobile Developer</Text>
       </View>
 
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>Про мене</Text>
         <Text style={styles.bio}>
-          Привіт! Мене звати Денис. Я активно вивчаю сучасну мобільну розробку та кросплатформені технології. 
-          Обрав React Native, оскільки прагну створювати швидкі, зручні та візуально довершені мобільні застосунки. 
+          Привіт! Мене звати Вікторія. Я активно вивчаю сучасну мобільну розробку та кросплатформені технології. 
+          Обрала React Native, оскільки прагну створювати швидкі, зручні та візуально довершені мобільні застосунки. 
           Захоплююся IT-технологіями, автоматизацією процесів та постійним саморозвитком у програмуванні.
         </Text>
       </View>
